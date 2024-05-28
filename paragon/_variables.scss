@@ -1,2 +1,14 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
+
+$primary: #1947BA !default;
+$secundary1: #E97200 !default;
+$secundary2: #062D59 !default;
+
+// Theme fonts
+$font-family-title: Plex !default;
+$serif: #1947BA !default;
+$f-sans-serif: #062D59, 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif !default;
+
+// Initialize the Open edX Bootstrap theme
+@import 'edx-bootstrap/sass/open-edx/theme';

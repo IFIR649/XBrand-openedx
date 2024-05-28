@@ -1,2 +1,41 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+
+.layout {
+  color: $primary !important;
+}
+
+.text-accent-a, .d-inline-block{
+    color: $secundary1 !important;
+}
+
+.bg-primary-400{
+	background-color: $primary !important;
+}
+
+.bg-primary-400{
+	background-color: $primary !important;
+}
+.large-screen-svg-primary{
+	background-color: $primary !important;
+}
+ .medium-screen-svg-primary{
+	fill: $primary !important;
+}
+
+button #sign-in{
+    background-color: $secundary2 !important;
+    border-color: $secundary2 !important;
+}
+
+button #register-user{
+    background-color: $secundary2 !important;
+    border-color: $secundary2 !important;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    [dir=ltr] .medium-screen-top-stripe {
+        background-image: linear-gradient(102.02deg, $secundary2 10%, $secundary2 0, $secundary2 65%, $primary 0, $primary 75%, $secundary1 0, $secundary1 0) !important;
+    }
+}
